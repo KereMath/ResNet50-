@@ -19,6 +19,10 @@ from sklearn.metrics import (
 
 import config
 from transfer_model import create_transfer_model
+# Import from local data_loader (not VAE's data_loader)
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
 from data_loader import create_dataloaders
 
 
