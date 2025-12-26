@@ -1,0 +1,9 @@
+# Large model files (exceeds GitHub limit)
+*.pth
+vae/vae_models/
+trained_models/*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
