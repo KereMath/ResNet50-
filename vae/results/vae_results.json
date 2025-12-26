@@ -1,0 +1,17 @@
+{
+  "best_epoch": 47,
+  "best_test_loss": 1086.5018458212576,
+  "best_test_recon_loss": 995.6543657856603,
+  "best_test_kl_loss": 90.84747388285976,
+  "anomaly_threshold": 0.012420067563652992,
+  "latent_dim": 128,
+  "num_epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "reconstruction_error_stats": {
+    "mean": 0.006614413112401962,
+    "std": 0.003528134897351265,
+    "min": 0.001240175566636026,
+    "max": 0.018891403451561928
+  }
+}
